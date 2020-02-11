@@ -6,7 +6,7 @@
         "Alexa",
         "Teneo"
     ],
-    "repository": "https://github.com/artificialsolutions/tie-api-example-slack-events-api/",
+    "repository": "https://github.com/a-hoffmann/teneo-alexa",
     "env": {
         "TENEO_ENGINE_URL": {
             "description": "Please input your Teneo Engine URL. https://some.engine/instance/",
