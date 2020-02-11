@@ -1,21 +1,13 @@
 {
-    "name": "heroku-slack-teneo",
-    "description": "A Slack bot powered by Teneo.",
+    "name": "heroku-alexa-teneo",
+    "description": "A Alexa bot powered by Teneo.",
     "keywords": [
         "bot",
-        "Slack",
+        "Alexa",
         "Teneo"
     ],
     "repository": "https://github.com/artificialsolutions/tie-api-example-slack-events-api/",
     "env": {
-        "SLACK_SIGNING_SECRET": {
-            "description": "Please input your Slack Signing Secret",
-            "required":true
-        },
-        "SLACK_BOT_USER_OAUTH_ACCESS_TOKEN": {
-            "description": "Please input your Slack Bot User Oauth Access Token",
-            "required":true
-        },
         "TENEO_ENGINE_URL": {
             "description": "Please input your Teneo Engine URL. https://some.engine/instance/",
             "required":true
